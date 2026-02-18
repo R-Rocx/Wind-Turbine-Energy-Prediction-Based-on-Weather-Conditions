@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wind Turbine Energy Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="intro-header">
+    <h1>Wind Turbine Energy Prediction Based on Weather Conditions</h1>
+</div>
+
+<!-- CONTENT CONTAINER -->
+<div class="intro-wrapper">
+
+    <!-- LEFT IMAGE -->
+    <div class="intro-left">
+        <img src="{{ url_for('static', filename='images/windmill.jpg') }}" alt="Wind Energy">
+    </div>
+
+    <!-- RIGHT TEXT -->
+    <div class="intro-right">
+
+        <p>
+            Renewable energy, such as wind and solar energy, plays an increasing
+            role in the global supply of electricity. With growing energy demands
+            and environmental concerns, wind energy has become one of the most
+            sustainable and scalable sources of power generation worldwide.
+        </p>
+
+        <p>
+            However, predicting wind energy production is challenging because
+            it depends heavily on dynamic and fluctuating weather conditions.
+            Wind speed, temperature, humidity, and atmospheric pressure
+            directly impact turbine performance.
+        </p>
+
+        <p>
+            This system uses real-time weather data combined with a trained
+            machine learning regression model to estimate wind turbine energy output.
+            By leveraging data-driven intelligence, energy producers can improve
+            grid stability and optimize production efficiency.
+        </p>
+
+        <div style="margin-top:30px;">
+            <a href="/prediction" class="intro-btn">
+                WANT TO PREDICT THE ENERGY?
+            </a>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>

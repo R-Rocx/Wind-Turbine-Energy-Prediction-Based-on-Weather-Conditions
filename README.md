@@ -90,7 +90,8 @@ The Flask app loads this model for real-time prediction.
 | Development Tools | Jupyter Notebook, VS Code |
 
 ## document Link and Demo Video
-link: https://drive.google.com/drive/folders/1qbc7kIPYLaBTwlPuHecv9_0gZeoMfAR7?usp=drive_link
+link: https://drive.google.com/drive/folders/1qbc7kIPYLaBTwlPuHecv9_0gZeoMfAR7
+
 
 
 
